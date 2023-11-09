@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-*{
+* {
     font-family: "Poppins", sans-serif;
 }
 
@@ -17,6 +17,7 @@ body {
 .container {
     text-align: center;
     margin: auto;
+    width: 700px;
     padding: 20px;
     border-radius: 16px;
     background-color: #ffff;
@@ -24,7 +25,8 @@ body {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-.select{
+
+.select {
     min-height: 250px;
     border: 1px dashed #A8B3E3;
     background-image: linear-gradient(180deg, white, #F1F6FF);
@@ -32,7 +34,8 @@ body {
     border-radius: 12px;
     position: relative;
 }
-#fileInput{
+
+#fileInput {
     color: white;
     background-color: #5874C6;
     border: none;
@@ -40,6 +43,7 @@ body {
     padding: 7px 20px;
     border-radius: 8px;
 }
+
 #fileList {
     text-align: left;
 }
@@ -49,20 +53,111 @@ body {
     padding: 0;
 }
 
+.file-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#fileList li {
+    margin-bottom: 15px;
+}
+
+#fileList li i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+#fileList li span {
+    text-align: left;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#fileList li a {
+    box-sizing: border-box;
+    background-color: #81c0d0;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+#fileList li button {
+    background-color: #FF6B6B;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+.select h2 {
+    color: #666; 
+}
+
+#fileInput {
+    color: white;
+    background-color: #5874C6;
+    border: none;
+    outline: none;
+    padding: 10px; 
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 #fileList li {
     display: flex;
     justify-content: space-between;
-    margin: 5px 0;
+    align-items: center;
+    margin-bottom: 15px;
 }
-#fileList li a{
-    box-sizing: border-box;
-    background-color: rgba(110, 196, 230, 0.486);
-    padding: 5px 10px;
+
+#fileList li i {
+    font-size: 24px;
+    margin-right: 10px;
 }
+
+#fileList li span {
+    text-align: left;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#fileList li a,
 #fileList li button {
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 5px 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+#fileList li a {
+    background-color: #a2e3ec;
+    color: #000;
+    border: 1px solid #0d73d3;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#fileList li button {
+    background-color: #ff6767;
+    color: #000;
+    border: 1px solid #f72626;
+}
+
+.file-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
 }
