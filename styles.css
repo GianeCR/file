@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #6990F2;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #ffff;
+    cursor: pointer; 
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.select{
+    min-height: 250px;
+    border: 1px dashed #A8B3E3;
+    background-image: linear-gradient(180deg, white, #F1F6FF);
+    margin: 5px 35px 35px 35px;
+    border-radius: 12px;
+    position: relative;
+}
+#fileInput{
+    color: white;
+    background-color: #5874C6;
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+#fileList {
+    text-align: left;
+}
+
+#fileList ul {
+    list-style: none;
+    padding: 0;
+}
+
+#fileList li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+#fileList li a{
+    box-sizing: border-box;
+    background-color: rgba(110, 196, 230, 0.486);
+    padding: 5px 10px;
+}
+#fileList li button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}

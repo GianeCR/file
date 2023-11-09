@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Documentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="drop-area">
+        <div class="header-section">
+            <h1>Cargar Archivo</h1>
+            <p>PDF, Images &  Videos </p>
+        </div>
+        <div class="select"><br>
+            <img src="ad.png" width="130" height="130" alt="nube">
+            <h2>Arrastra y suelta<br> archivos aquí</h2>
+            <input type="file" id="fileInput" multiple>
+        </div>
+        <div id="fileList">
+            <h2>Archivos Cargados:</h2>
+            <ul id="fileListItems"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
